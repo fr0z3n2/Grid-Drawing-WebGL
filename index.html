@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<!-- CSC 495 Homework 2 -->
+
+<html>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<head>
+		<!-- Sets up the header for the HTML document-->
+		<title> Assignment 2 </title>
+		<link href="style.css" type="text/css" rel="stylesheet">
+	</head>
+
+	<!-- Body of the HTML document -->
+	<body>
+		<canvas id="glCanvas" width="800" height="800"></canvas>
+		<!-- Declares where the scripts are located -->
+		<script type="text/javascript" src="scripts/Main.js"></script>
+		<script type="text/javascript" src="scripts/Drawing.js"></script>
+		<script type="text/javascript" src="scripts/PixelGrid.js"></script>
+		<script type="text/javascript" src="scripts/Universe.js"></script>
+
+		<!-- Runs the main function in the main.js file -->
+		<script language="javascript">
+			main();
+		</script>
+		<div id="control_buttons">
+		</br>
+			<input id="draw_pixel_button" type="radio" name="drawing" value="pixel">Draw Pixel </br>
+			<input id="draw_line_button" type="radio" name="drawing" value="line">Draw Line </br>
+			<input id="draw_circle_button" type="radio" name="drawing" value="circle">Draw Circle </br>
+			<button id="clear_button" type="radio" name="clear">Clear Grid</button>
+		</div>
+	</body>
+
+</html>
