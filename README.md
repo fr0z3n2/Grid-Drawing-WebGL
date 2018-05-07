@@ -1,2 +1,16 @@
-# Grid-Drawing-WebGL
-This is used for the CSC 495 Graphics class at UNCG. This web application simulates a raster display and uses line and circle drawing algorithms to simulate what it is like to draw a circle on a display.
+# WebGL Simulated Pixel Display #
+
+This web application is a simple simulation of a pixel display that is typically
+used on a computer monitor.
+
+* [Getting Started](#gettingstarted)
+* [Quick Demo](#webdemo)
+
+Getting Started <a name="gettingstarted"></a>
+===============
+
+Download or clone the repository and load the index.html file in any web browser.
+Everything else will be loaded and feel free to jump right in!
+
+Quick Demo <a name="webdemo"></a>
+==========
