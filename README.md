@@ -16,7 +16,7 @@ Quick Demo <a name="webdemo"></a>
 ==========
 Here is the simulation in action!
 
-![Grid Demo](docs/simulated_display.png)
+![Grid Demo](docs/simulated_display.gif)
 
 What is it? <a name="whatisit"></a>
 ===========
@@ -24,4 +24,4 @@ The goal is to simulate computational graphics concepts that occur when drawing
 pixels on a raster display. First, the geometry is calculated to know where to
 draw the pixel, circle, or line. Then, then the image is rasterized to fit the
 pixel display and show the drawing. This just to give an idea how computational
-graphics work. 
+graphics work.
